@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 248, 248);
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+
+#container{
+    width : 650px;
+    height : 500px ;
+    margin: auto;
+    margin-top: 5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skill-box{
+    width : 35rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(105, 163, 165);
+   border-radius: 50px;
+    margin-bottom: 1.5rem ;
+}
+
+#project-box{
+    width : 35rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(105, 163, 165);
+   border-radius: 50px;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.list{
+    list-style-type: none;
+}

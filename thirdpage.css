@@ -1,0 +1,35 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(211, 248, 248);
+}
+
+#container{
+    width : 650px ;
+    height : 500px ;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: larger;
+}
+
+#content{
+    width : 1000px ;
+    height : 15rem ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left : 1rem ;
+    align-items: center;
+    
+    background-color: rgb(105, 163, 165);
+   border-radius: 50px;
+    
+}
